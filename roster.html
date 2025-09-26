@@ -1,68 +1,125 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Los Angeles Kings Fan Page</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <title>Los Angeles Kings Fan Page</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<header role="banner">
-  <h1>Los Angeles Kings Hockey</h1>
-  <h2>Since 1967</h2>
-  <nav role="navigation">
-    <ul>
-      <li><a href="index.html" title="Home">Home</a></li>
-      <li><a href="roster.html" title="Roster & Stats">Roster & Stats</a></li>
-      <li><a href="media.html" title="Media">Media</a></li>
-      <li><a href="history.html" title="History">History</a></li>
-    </ul>
-  </nav>
-</header>
+
+  <!-- ===== Header ===== -->
+  <header role="banner">
+    <img src="\images\logos\Los_Angeles_Kings_2024_Logo.svg" 
+         alt="LA Kings Logo" 
+         style="width:100px;height:100px;">
+    <h1>Los Angeles Kings Hockey</h1>
+    <h2>Since 1967</h2>
+
+    <!-- Navigation -->
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="roster.html" title="Roster & Stats">Roster & Stats</a></li>
+        <li><a href="media.html" title="Media">Media</a></li>
+        <li><a href="history.html" title="History">History</a></li>
+      </ul>
+    </nav>
+  </header>
 
 <main role="main">
   <article>
 <header>
     <h2>Here's a look at the LA Kings' current roster and their career stats.</h2>
 </header>
-    <section>
-        <h3>Players</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Number</th>
-                    <th>Player</th>
-                    <th>Position</th>
-                    <th>Games Played</th>
-                    <th>Goals</th>
-                    <th>Assists</th>
-                    <th>Points</th>
-                    <th>Number</th>      
-                </tr>
-            </thead>
+<section>
+  <h3>Players</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Number</th>
+        <th>Player</th>
+        <th>Position</th>
+        <th>Games Played</th>
+        <th>Goals</th>
+        <th>Assists</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Forwards -->
+      <tr>
+        <td><data value="11">11</data></td>
+        <td>Anže Kopitar</td>
+        <td>C</td>
+        <td><data value="1454">1454</data></td>
+        <td><data value="440">440</data></td>
+        <td><data value="838">838</data></td>
+        <td><data value="1278">1278</data></td>
+      </tr>
+      <tr><td><data value="9">9</data></td><td>Adrian Kempe</td><td>RW</td><td><data value="630">630</data></td><td><data value="194">194</data></td><td><data value="207">207</data></td><td><data value="401">401</data></td></tr>
+      <tr><td><data value="22">22</data></td><td>Kevin Fiala</td><td>LW</td><td><data value="651">651</data></td><td><data value="211">211</data></td><td><data value="277">277</data></td><td><data value="488">488</data></td></tr>
+      <tr><td><data value="24">24</data></td><td>Phillip Danault</td><td>C</td><td><data value="711">711</data></td><td><data value="125">125</data></td><td><data value="269">269</data></td><td><data value="394">394</data></td></tr>
+      <tr><td><data value="12">12</data></td><td>Trevor Moore</td><td>LW</td><td><data value="416">416</data></td><td><data value="94">94</data></td><td><data value="121">121</data></td><td><data value="215">215</data></td></tr>
+      <tr><td><data value="55">55</data></td><td>Quinton Byfield</td><td>C</td><td><data value="260">260</data></td><td><data value="51">51</data></td><td><data value="91">91</data></td><td><data value="142">142</data></td></tr>
+      <tr><td><data value="96">96</data></td><td>Andrei Kuzmenko</td><td>LW</td><td><data value="219">219</data></td><td><data value="72">72</data></td><td><data value="85">85</data></td><td><data value="157">157</data></td></tr>
+      <tr><td><data value="37">37</data></td><td>Warren Foegele</td><td>LW</td><td><data value="513">513</data></td><td><data value="104">104</data></td><td><data value="105">105</data></td><td><data value="209">209</data></td></tr>
+      <tr><td><data value="40">40</data></td><td>Joel Armia</td><td>RW</td><td><data value="586">586</data></td><td><data value="103">103</data></td><td><data value="104">104</data></td><td><data value="207">207</data></td></tr>
+      <tr><td><data value="14">14</data></td><td>Alex Laferriere</td><td>RW</td><td><data value="158">158</data></td><td><data value="31">31</data></td><td><data value="34">34</data></td><td><data value="65">65</data></td></tr>
+      <tr><td><data value="15">15</data></td><td>Alex Turcotte</td><td>C</td><td><data value="100">100</data></td><td><data value="10">10</data></td><td><data value="19">19</data></td><td><data value="29">29</data></td></tr>
 
-            <tbody>
-                <tr>
-                    <td>11</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-     <section>
-        <h3>Goalies</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Number</th>
-                    <th>Player</th>
-                    <th>Games Played</th>
-                    <th>Wins</th>
-                    <th>Loses</th>
-                    <th>Save %</th>
-                    <th>GAA</th>      
-                </tr>
-            </thead>
-        </table>
-    </section>
+      <!-- Defense -->
+      <tr><td><data value="8">8</data></td><td>Drew Doughty</td><td>D</td><td><data value="1177">1177</data></td><td><data value="156">156</data></td><td><data value="513">513</data></td><td><data value="669">669</data></td></tr>
+      <tr><td><data value="44">44</data></td><td>Mikey Anderson</td><td>D</td><td><data value="345">345</data></td><td><data value="17">17</data></td><td><data value="65">65</data></td><td><data value="82">82</data></td></tr>
+      <tr><td><data value="92">92</data></td><td>Brandt Clarke</td><td>D</td><td><data value="103">103</data></td><td><data value="7">7</data></td><td><data value="34">34</data></td><td><data value="41">41</data></td></tr>
+      <tr><td><data value="5">5</data></td><td>Cody Ceci</td><td>D</td><td><data value="871">871</data></td><td><data value="52">52</data></td><td><data value="183">183</data></td><td><data value="235">235</data></td></tr>
+      <tr><td><data value="2">2</data></td><td>Brian Dumoulin</td><td>D</td><td><data value="706">706</data></td><td><data value="28">28</data></td><td><data value="149">149</data></td><td><data value="177">177</data></td></tr>
+      <tr><td><data value="6">6</data></td><td>Joel Edmundson</td><td>D</td><td><data value="603">603</data></td><td><data value="35">35</data></td><td><data value="95">95</data></td><td><data value="130">130</data></td></tr>
+      <tr><td><data value="7">7</data></td><td>Kyle Burroughs</td><td>D</td><td><data value="201">201</data></td><td><data value="5">5</data></td><td><data value="17">17</data></td><td><data value="22">22</data></td></tr>
+      <tr><td><data value="43">43</data></td><td>Jacob Moverare</td><td>D</td><td><data value="47">47</data></td><td><data value="1">1</data></td><td><data value="10">10</data></td><td><data value="11">11</data></td></tr>
+    </tbody>
+  </table>
+</section>
+
+
+<section>
+  <h3>Goalies</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Number</th>
+        <th>Player</th>
+        <th>Games Played</th>
+        <th>Wins</th>
+        <th>Losses</th>
+        <th>Save %</th>
+        <th>GAA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><data value="35">35</data></td>
+        <td>Darcy Kuemper</td>
+        <td><data value="439">439</data></td>
+        <td><data value="209">209</data></td>
+        <td><data value="146">146</data></td>
+        <td><data value="0.915">.915</data></td>
+        <td><data value="2.54">2.54</data></td>
+      </tr>
+      <tr>
+        <td><data value="31">31</data></td>
+        <td>Anton Forsberg</td>
+        <td><data value="190">190</data></td>
+        <td><data value="74">74</data></td>
+        <td><data value="81">81</data></td>
+        <td><data value="0.904">.904</data></td>
+        <td><data value="3.04">3.04</data></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+
   </article>
 </main>
 <footer role="contentinfo">

@@ -1,3 +1,6 @@
+/* =========================================================
+   Base / Reset
+   ========================================================= */
 html {
     font-size: 100%;
 }
@@ -8,18 +11,25 @@ body {
     margin: 0px;
 }
 
+/* =========================================================
+   Header (Banner)
+   ========================================================= */
 header {
     background-color: black;
     color: white;
     padding: 20px;
 }     
 
+/* =========================================================
+   Header: Logo + Title Row
+   ========================================================= */
 .header-logo-title {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
 }
+
 .header-logo-title img {
    margin-right: 15px;
 }
@@ -35,7 +45,9 @@ header {
    font-size: 1.2em;
 }
 
-/* Nav bar centered under header */
+/* =========================================================
+   Navigation (Centered under Header)
+   ========================================================= */
 nav ul {
    list-style-type: none;
    padding: 0;
@@ -59,15 +71,20 @@ nav a:hover {
    border-radius: 4px;
 }
 
+/* =========================================================
+   Intro Header (Section Title Bar)
+   ========================================================= */
 .intro-header {
    background-color: silver;  
    color: black;
    text-align: center;
    padding: 20px;
    margin: 0px;
-
 }
 
+/* =========================================================
+   Content Helpers
+   ========================================================= */
 .index-intro {
    text-align: center;
 }
@@ -76,12 +93,16 @@ nav a:hover {
    text-align: center;;
 }
 
+/* =========================================================
+   Main Layout
+   ========================================================= */
 main {
     margin: 0px 40px 25px 40px;
 }
 
-
-
+/* =========================================================
+   Footer
+   ========================================================= */
 footer {
     background-color: black;
     color: white;

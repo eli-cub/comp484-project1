@@ -7,76 +7,85 @@
 </head>
 <body>
 
-<!-- ===== Header ===== -->
-<header role="banner">
-  <div class="header-logo-title">
-    <img src="\images\logos\Los_Angeles_Kings_2024_Logo.svg" 
-         alt="LA Kings Logo" 
-         style="width:100px;height:100px;">
-    <div class="titles">
-      <h1>Los Angeles Kings Hockey</h1>
-      <h2><em>Since 1967</em></h2>
+  <!-- ================= HEADER ================= -->
+  <header role="banner">
+    <div class="header-logo-title">
+      <img src="/images/logos/Los_Angeles_Kings_2024_Logo.svg" 
+           alt="LA Kings Logo" 
+           style="width:100px;height:100px;">
+      <div class="titles">
+        <h1>Los Angeles Kings Hockey</h1>
+        <h2><em>Since 1967</em></h2>
+      </div>
     </div>
-  </div>
 
-  <!-- Navigation -->
-  <nav role="navigation">
-    <ul>
-      <li><a href="index.html" title="Home">Home</a></li>
-      <li><a href="roster.html" title="Roster & Stats">Roster & Stats</a></li>
-      <li><a href="media.html" title="Media">Media</a></li>
-      <li><a href="history.html" title="History">History</a></li>
-    </ul>
-  </nav>
-</header>
-<main role="main">
-  <article>
-    <header class = "intro-header">
+    <!-- Navigation -->
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="roster.html" title="Roster & Stats">Roster & Stats</a></li>
+        <li><a href="media.html" title="Media">Media</a></li>
+        <li><a href="history.html" title="History">History</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main role="main">
+    <article>
+
+      <!-- Page Intro -->
+      <header class="intro-header">
         <h2>Here you will find media</h2>
       </header>
-<section>
-  <h2>Highlights</h2>
-<iframe width="560" 
-height="315" 
-src="https://www.youtube.com/embed/UIKCD0p9ebs?si=dxCZmnVvq6fS-QHo" 
-title="YouTube video player"
- frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-   referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-</section>
 
+      <!-- Highlights Section -->
+      <section>
+        <h2>Highlights</h2>
+        <iframe width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/UIKCD0p9ebs?si=dxCZmnVvq6fS-QHo" 
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+        </iframe>
+      </section>
 
-<section>
-  <h2>Arena Map</h2>
-  <p>Click on a section to view a fan’s seat photo from that level.</p>
+      <!-- Arena Map Section -->
+      <section>
+        <h2>Arena Map</h2>
+        <p>Click on a section to view a fan’s seat photo from that level.</p>
 
-  <img src="images/arena-map.png" 
-       alt="Crypto.com Arena seating map" 
-       usemap="#arenamap" 
-         width="600"
-      >
+        <img src="images/arena-map.png" 
+             alt="Crypto.com Arena seating map" 
+             usemap="#arenamap" 
+             width="600">
 
-<map name="arenamap">
-    <area shape="rect" coords="183,7,423,53"
-          href="https://aviewfrommyseat.com/venue/Crypto.com+Arena/level/8/Level+300/" 
-          alt="300 Level" title="300 Level" target="_blank">
+        <!-- Clickable Map Areas -->
+        <map name="arenamap">
+          <area shape="rect" coords="183,7,423,53"
+                href="https://aviewfrommyseat.com/venue/Crypto.com+Arena/level/8/Level+300/" 
+                alt="300 Level" title="300 Level" target="_blank">
 
-    <area shape="rect" coords="183,60,423,97"
-          href="https://aviewfrommyseat.com/venue/Crypto.com+Arena/level/4/Level+200/" 
-          alt="200 Level" title="200 Level" target="_blank">
+          <area shape="rect" coords="183,60,423,97"
+                href="https://aviewfrommyseat.com/venue/Crypto.com+Arena/level/4/Level+200/" 
+                alt="200 Level" title="200 Level" target="_blank">
 
-    <area shape="rect" coords="188,101,413,160"
-          href="https://aviewfrommyseat.com/venue/Crypto.com+Arena/level/3/Level+100/" 
-          alt="100 Level" title="100 Level" target="_blank">
-</map>
-</section>
+          <area shape="rect" coords="188,101,413,160"
+                href="https://aviewfrommyseat.com/venue/Crypto.com+Arena/level/3/Level+100/" 
+                alt="100 Level" title="100 Level" target="_blank">
+        </map>
+      </section>
 
-  </article>
-</main>
-<footer role="contentinfo">
-      <p>&copy; 2025 LA Kings Fan Page | Made by Eli Cubillo</p>
-</footer>
+    </article>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 LA Kings Fan Page | Made by Eli Cubillo</p>
+  </footer>
+
 </body>
 </html>

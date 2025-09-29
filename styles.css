@@ -5,22 +5,79 @@ html {
 body {
     font-family: sans-serif;
     background-color: silver;
-   
-}
-
-nav ul {
-  list-style-type: none; 
-  padding: 0;             
-  margin: 0;              
+    margin: 0px;
 }
 
 header {
     background-color: black;
-     color: white;
+    color: white;
+    padding: 20px;
+}     
+
+.header-logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
 }
+.header-logo-title img {
+   margin-right: 15px;
+}
+
+.titles h1 {
+   margin: 0;
+   font-size: 2em;
+}
+
+.titles h2 {
+   margin: 0;
+   font-weight: normal;
+   font-size: 1.2em;
+}
+
+/* Nav bar centered under header */
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 20px 0 0 0;
+   text-align: center;
+}
+
+nav li {
+   display: inline-block;  /* inline menu items */
+   margin: 0 10px;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   padding: 10px 15px;
+}
+
+nav a:hover {
+   background-color: gray;
+   border-radius: 4px;
+}
+
+.intro-header {
+   background-color: silver;  
+   color: black;
+   text-align: center;
+   padding: 20px;
+   margin: 0px;
+
+}
+
+main {
+    margin: 0px 40px 25px 40px;
+}
+
+
 
 footer {
     background-color: black;
     color: white;
-    
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
 }

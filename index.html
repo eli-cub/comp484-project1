@@ -7,31 +7,34 @@
 </head>
 <body>
 
-  <!-- ===== Header ===== -->
-  <header role="banner">
+<!-- ===== Header ===== -->
+<header role="banner">
+  <div class="header-logo-title">
     <img src="\images\logos\Los_Angeles_Kings_2024_Logo.svg" 
          alt="LA Kings Logo" 
          style="width:100px;height:100px;">
-    <h1>Los Angeles Kings Hockey</h1>
-    <h2>Since 1967</h2>
+    <div class="titles">
+      <h1>Los Angeles Kings Hockey</h1>
+      <h2><em>Since 1967</em></h2>
+    </div>
+  </div>
 
-    <!-- Navigation -->
-    <nav role="navigation">
-      <ul>
-        <li><a href="index.html" title="Home">Home</a></li>
-        <li><a href="roster.html" title="Roster & Stats">Roster & Stats</a></li>
-        <li><a href="media.html" title="Media">Media</a></li>
-        <li><a href="history.html" title="History">History</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <!-- Navigation -->
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html" title="Home">Home</a></li>
+      <li><a href="roster.html" title="Roster & Stats">Roster & Stats</a></li>
+      <li><a href="media.html" title="Media">Media</a></li>
+      <li><a href="history.html" title="History">History</a></li>
+    </ul>
+  </nav>
+</header>
   <!-- ===== Main Content ===== -->
   <main role="main">
     <article>
 
       <!-- Welcome Header -->
-      <header>
+      <header class = "intro-header">
         <h2>Welcome to the LA Kings Fan Hub.</h2>
       </header>
 
@@ -43,10 +46,12 @@
       </section>
 
       <!-- Chant + Arena Info -->
+      <section>
       <h1>GO KINGS GO!</h1>
       <p>This team plays at Crypto.com Arena located in Los Angeles, California.</p>
-
+      </section>
       <!-- Arena Map -->
+       <section>
       <iframe
         title="Map – Crypto.com Arena"
         src="https://www.google.com/maps?q=Crypto.com+Arena&hl=en&z=15&output=embed"
@@ -56,7 +61,7 @@
         sandbox="allow-scripts allow-same-origin allow-presentation"
         allowfullscreen>
       </iframe>
-
+       </section>    
     </article>
   </main>
 

@@ -68,6 +68,14 @@ nav a:hover {
 
 }
 
+.index-intro {
+   text-align: center;
+}
+
+.map-info {
+   text-align: center;;
+}
+
 main {
     margin: 0px 40px 25px 40px;
 }
